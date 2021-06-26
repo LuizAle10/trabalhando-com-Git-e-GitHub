@@ -1,8 +1,9 @@
-# trabalhando-com-git-e-github
-Baseado nos cursos: Introdução ao Git e ao GitHub(digitalinnovation); Git e GitHub [20 Horas](Curso em video); Git e Github para iniciantes(Udemy)
-
-
 # Trabalhando com Git e GitHub
+
+
+=> Baseado nos cursos: Introdução ao Git e ao GitHub(digitalinnovation); Git e GitHub [20 Horas](Curso em video); Git e Github para iniciantes(Udemy)
+
+
 
 **git  init ** => iniciar git, estamos criando um repositório dentro do diretório(pasta)
 
