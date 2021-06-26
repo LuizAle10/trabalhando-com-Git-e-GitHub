@@ -5,7 +5,7 @@
 
 
 
-**git  init ** => iniciar git, estamos criando um repositório dentro do diretório(pasta)
+**git init ** => iniciar git, estamos criando um repositório dentro do diretório(pasta)
 
 **git add** => mover arquivos e iniciar de fato o versionamento
 
