@@ -17,7 +17,7 @@ Considerando que você já tem o git instalado.
 
 **4-** Pronto agora é só subir seus arquivos pro github. Use o comando **git add .** para adicionar todos os arquivos do projeto. 
 
-**5-** Crie um commit inicial **git commit -m "primeiro commit"** e depois dê o **push git push origin main**
+**5-** Crie um commit inicial **git commit -m "primeiro commit"** e depois dê o push **git push origin main**
 
 
 obs: se o git está inicializando na **Master**, por conta da alteração padrão do github que agora é **Main**, será necessário trocar da **Master** para **Main** com 
