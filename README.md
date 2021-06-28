@@ -1,19 +1,29 @@
 # Trabalhando com Git e GitHub
 
-
 Baseado nos cursos: Introdução ao Git e ao GitHub(digitalinnovation); Git e GitHub [20 Horas](Curso em video); Git e Github para iniciantes(Udemy)
 
+Todo comando do Git leva a palavra Git na frente e o comando especifico logo após.
 
 
-**git init ** => iniciar git, estamos criando um repositório dentro do diretório(pasta)
+**Exemplo:** subir um projeto existente para o github
 
-**git add** => mover arquivos e iniciar de fato o versionamento
+Considerando que você já tem o git instalado. 
 
-**git commit** => Comitar 
+**1-** Primeiro vá no github e crie seu repositório. Clique no símbolo de + no topo da tela e depois em New Repository. Preencha um nome e uma descrição para o projeto e clique em Create repository. Você já tem seu repositório no github, agora vamos subir seus arquivos pra lá.
+
+**2-** Navegue até a pasta do seu repositório e dentro dela use o comando git init, isso vai transformar a sua pasta em um projeto git (Não vai mudar nada).
+
+**3-** Agora precisamos linkar seu projeto com o seu repositório no github, pra isso você vai usar o comando git remote add origin https://github.com/user/repo.git. Você vai ter que mudar o link para o link do seu projeto, um projeto meu por exemplo é https://github.com/Vmussato/api-rest-node.git, use o link do seu projeto.
+
+**4-** Pronto agora é só subir seus arquivos pro github. Use o comando git add . para adicionar todos os arquivos do projeto. 
+
+**5-** Crie um commit inicial git commit -m "primeiro commit" e depois dê o push git push origin master.
 
 
 
-obs: todo comando do Git leva a palavra Git na frente e o comando especifico logo após
+
+
+
 
 
 
