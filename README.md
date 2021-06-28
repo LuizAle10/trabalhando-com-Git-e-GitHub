@@ -9,18 +9,23 @@ Todo comando do Git leva a palavra Git na frente e o comando especifico logo ap�
 
 Considerando que você já tem o git instalado. 
 
-**1-** Primeiro vá no github e crie seu repositório. Clique no símbolo de + no topo da tela e depois em New Repository. Preencha um nome e uma descrição para o projeto e clique em Create repository. Você já tem seu repositório no github, agora vamos subir seus arquivos pra lá.
+**1-** Primeiro vá no github e crie seu repositório. Clique no símbolo de + no topo da tela e depois em **New Repository**. Preencha um nome e uma descrição para o projeto e clique em **Create repository**. Você já tem seu repositório no github, agora vamos subir seus arquivos pra lá.
 
-**2-** Navegue até a pasta do seu repositório e dentro dela use o comando git init, isso vai transformar a sua pasta em um projeto git (Não vai mudar nada).
+**2-** Navegue até a pasta do seu repositório e dentro dela use o comando **git init**, isso vai transformar a sua pasta em um projeto git (Não vai mudar nada).
 
-**3-** Agora precisamos linkar seu projeto com o seu repositório no github, pra isso você vai usar o comando git remote add origin https://github.com/user/repo.git. Você vai ter que mudar o link para o link do seu projeto, um projeto meu por exemplo é https://github.com/Vmussato/api-rest-node.git, use o link do seu projeto.
+**3-** Agora precisamos linkar seu projeto com o seu repositório no github, pra isso você vai usar o comando **git remote add origin https://github.com/user/xxx.git**. Você vai ter que mudar o link para o link do seu projeto, um projeto meu por exemplo é https://github.com/xxx/api-rest-xxx.git, use o link do seu projeto.
 
-**4-** Pronto agora é só subir seus arquivos pro github. Use o comando git add . para adicionar todos os arquivos do projeto. 
+**4-** Pronto agora é só subir seus arquivos pro github. Use o comando **git add .** para adicionar todos os arquivos do projeto. 
 
-**5-** Crie um commit inicial git commit -m "primeiro commit" e depois dê o push git push origin master.
+**5-** Crie um commit inicial **git commit -m "primeiro commit"** e depois dê o **push git push origin main**
 
 
+obs: se o git está inicializando na **Master**, por conta da alteração padrão do github que agora é **Main**, será necessário trocar da **Master** para **Main** com 
 
+Fazendo:
+**git config --global init.defaultBranch main**
+
+o git irá sempre iniciar o repositório com o branch main como padrão.
 
 
 
